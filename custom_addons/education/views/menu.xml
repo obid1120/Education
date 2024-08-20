@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <menuitem id="menu_education_root" name="Education Management" sequence="1"/>
+
+    <menuitem id="menu_course" name="Courses" parent="menu_education_root"/> # action="action_course"
+<!--    <menuitem id="menu_group" name="Groups" parent="menu_education_root" /> # action="action_group"-->
+<!--    <menuitem id="menu_payment" name="Payments" parent="menu_education_root" /> # action="action_payment"-->
+
+    <menuitem id="menu_admin_reports" name="Reports" parent="menu_education_root" groups="group_admin"/>
+
+<!--    <menuitem id="menu_administrator_payments" name="Recent Payments" parent="menu_payment" groups="group_administrator"/>-->
+</odoo>
